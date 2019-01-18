@@ -17,6 +17,7 @@ def youdao_api():
 def qq_music() :
     # qq音乐API: https://y.qq.com/m/api/api.html#js-qm-media-playSonglist
 
+
     cmd = {'我喜欢': 'qqmusic://qq.com/ui/myTab?p=%7B%22tab%22%3A%22fav%22%7D', # p={"tab":"fav"} (url解码）
            '个性电台': 'qqmusic://qq.com/media/playRadio?p=%7B%22radioId%22%3A%2299%22%7D', # p={"radioId":"99"}
            '识别歌曲': 'qqmusic://qq.com/ui/recognize',
